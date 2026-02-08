@@ -1,33 +1,35 @@
-### 📘 Student Management REST API
+## 📘 Student Management REST API
 
-A backend RESTful API built using Django REST Framework to manage student records with full CRUD functionality.
+A backend **RESTful API** built using **Django REST Framework** to manage student records with full CRUD functionality.  
 The project demonstrates clean API design, proper HTTP methods, status codes, and API testing using Postman.
+
+---
 
 ## 🚀 Features
 
-• Create a new student
-• Retrieve all students
-• Retrieve a single student by ID
-• Update student details
-• Delete a student
-• Proper HTTP status codes (200, 201, 204, 404)
-• JSON-based API responses
+- Create a new student
+- Retrieve all students
+- Retrieve a single student by ID
+- Update student details
+- Delete a student
+- Proper HTTP status codes (`200`, `201`, `204`, `404`)
+- JSON-based API responses
+
+---
 
 ## 🛠️ Tech Stack
 
-- Backend: Python, Django
+- **Backend:** Python, Django
+- **API Framework:** Django REST Framework (DRF)
+- **Database:** SQLite (default Django DB)
+- **API Testing:** Postman
+- **Version Control:** Git & GitHub
 
-- API Framework: Django REST Framework (DRF)
-
-- Database: SQLite (default Django DB)
-
-- API Testing: Postman
-
-- Version Control: Git & GitHub
-
+---
 
 ## 📂 Project Structure
 
+```text
 student_api/
 │
 ├── config/              # Project settings & URLs
@@ -40,6 +42,7 @@ student_api/
 ├── manage.py
 ├── requirements.txt
 ├── .gitignore
+
 
 ## 🔗 API Endpoints
 
