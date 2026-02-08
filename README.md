@@ -42,23 +42,27 @@ student_api/
 ├── manage.py
 ├── requirements.txt
 ├── .gitignore
-
+```
 
 ## 🔗 API Endpoints
 
-Base URL:  http://127.0.0.1:8000/api/
-
+Base URL
+```
+http://127.0.0.1:8000/api/
+```
 | Method | Endpoint          | Description       |
 | ------ | ----------------- | ----------------- |
-| GET    | /students/        | Get all students  |
-| POST   | /students/        | Add a new student |
-| GET    | /students/<id>/   | Get student by ID |
-| PUT    | /students/<id>/   | Update student    |
-| DELETE | /students/<id>/   | Delete student    |
+| GET    | `/students/`      | Get all students  |
+| POST   | `/students/`      | Add a new student |
+| GET    | `/students/<id>/` | Get student by ID |
+| PUT    | `/students/<id>/` | Update student    |
+| DELETE | `/students/<id>/` | Delete student    |
 
+---  
 
 ## 📦 Sample Request (POST)
 
+```
 {
   "name": "Anushka",
   "age": 22,
@@ -66,9 +70,11 @@ Base URL:  http://127.0.0.1:8000/api/
   "course": "Django",
   "grade": "A"
 }
+```
+---
 
 ## 📤 Sample Response
-
+```
 {
   "id": 1,
   "name": "Anushka",
@@ -77,51 +83,58 @@ Base URL:  http://127.0.0.1:8000/api/
   "course": "Django",
   "grade": "A"
 }
+```
+---
 
 ## ▶️ How to Run the Project Locally
-
-1. Clone the repository:
-
+- 1️⃣ Clone the repository
+```
 git clone https://github.com/anushkapundir1/student-management-api.git
 cd student-management-api
-
-
-2. Create and activate virtual environment:
-
+```
+- 2️⃣ Create and activate virtual environment
+```
 python -m venv venv
 venv\Scripts\activate   # Windows
-
-
-3. Install dependencies:
-
-pip install -r requirements.txt
-
-
-4. Run migrations:
-
+```
+- 3️⃣ Install dependencies
+```
+  pip install -r requirements.txt
+```
+- 4️⃣ Run migrations
+```
 python manage.py makemigrations
 python manage.py migrate
-
-
-5. Start the server:
-
+```
+- 5️⃣ Start the server
+```
 python manage.py runserver
-
+```
+---
 ## 🧪 API Testing
-
 All endpoints were tested using Postman, ensuring correct request handling and responses.
+
+---
 
 ## 📌 Learning Outcomes
 
-• Understanding REST API architecture
-• Working with Django REST Framework
-• Handling CRUD operations
-• Using serializers for JSON conversion
-• Proper GitHub version control practices
+- Understanding REST API architecture
 
+- Working with Django REST Framework
+
+- Implementing CRUD operations
+
+- Using serializers for JSON conversion
+
+- Following clean GitHub version control practices
+ 
+---
 
 ## 👩‍💻 Author
 
 Anushka Pundir
+
+
+
 
 
